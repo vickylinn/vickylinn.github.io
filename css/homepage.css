@@ -439,7 +439,7 @@
     width: 146px;
     height: 40px;
     font-size: 34px;
-    font-family: Bodoni 72;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 0 auto;
     margin-top: 135px;
@@ -500,7 +500,7 @@
     width: 63px;
     height: 21px;
     font-size: 17px;
-    font-family: Bodoni 72;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -510,7 +510,7 @@
     width: 63px;
     height: 21px;
     font-size: 17px;
-    font-family: Bodoni 72;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     white-space: nowrap;
     margin-top: 10px;
@@ -521,7 +521,7 @@
     width: 63px;
     height: 21px;
     font-size: 17px;
-    font-family: Bodoni 72;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -530,19 +530,21 @@
     width: 146px;
     height: 40px;
     font-size: 19px;
-    font-family: Bodoni 72;
+    font-family: Arial, Helvetica, sans-serif;
     /* font-weight: bold; */
-    margin-left: 45%;
+    margin: 0 auto;
     margin-top: 35px;
     white-space: nowrap;
+    text-align: center;
 }
 
 .address {
     width: 146px;
     height: 40px;
     font-size: 19px;
-    font-family: Bodoni 72;
+    font-family: Arial, Helvetica, sans-serif;
     /* font-weight: bold; */
-    margin-left: 37%;
+    margin: 0 auto;
     white-space: nowrap;
+    text-align: center;
 }
