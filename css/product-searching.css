@@ -133,7 +133,7 @@
 .header-l div:first-child {
     width: 246px;
     margin-top: 15%;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bold;
     line-height: 0px;
     color: #402F42;
@@ -259,3 +259,299 @@
   .h-r-box p:nth-of-type(2) {
     margin: 10px 0;
   }
+
+  /* footer section */
+  .h-r-bottom {
+    width: 158px;
+    color: #402F42;
+    margin: 0 auto;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+  }
+  
+  .h-r-bottom span:nth-child(1) {
+    border-bottom: 1px solid #402F42;
+  }
+  
+  .h-r-bottom img {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+  }
+  .foot {
+    color: #402F42;
+    width: 590px;
+    margin: 5% auto;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+  }
+  
+  .foot .foot-p1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .foot-box-p {
+    margin-top: 10px;
+  }
+  
+  .foot .foot-box {
+    text-align: center;
+  }
+  
+  .foot .foot-box div {
+    margin: 10px;
+  }
+  
+  .foot-p2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .foot-p3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  /* reponsive setting */
+  @media screen and (max-width:1400px) {
+    .nav-t-3 div img:first-child {
+      display: none;
+    }
+  
+    .header-r {
+      margin: 0 auto;
+    }
+  
+    .header-l {
+      display: none !important;
+    }
+  }
+
+  @media screen and (max-width:1200px) {
+    .nav-select {
+      display: block;
+      width: 100%;
+    }
+  
+    .nav-select div {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .nav-select div select {
+        width: 100%;
+        outline: none;
+        border: none;
+        text-align: center;
+        font-size: 27px;
+        background: linear-gradient(180deg, #17BBD5 0%, #53A8B5 100%);
+        box-shadow: 5px 5px 6px rgb(0 0 0 / 16%);
+        opacity: 0.79;
+        border-radius: 40px;
+        padding: 20px 0;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background-image: url("../Img/Img/top_arrow.png");
+        background-repeat: no-repeat;
+        background-position: 63% 12px;
+        background-size: 50px 50px;
+      }
+      .nav .tb-input {
+        width: 80%;
+      }
+    
+      .h-title-p {
+        font-size: 30px !important;
+      }
+    
+      .d-none {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width:1000px) {
+  .nav .tb-input input {
+    font-size: 20px !important;
+  }
+
+  .nav-t-3 img {
+    width: 80% !important;
+  }
+
+  .nav-t-2 img {
+    width: 80% !important;
+
+  }
+
+  .nav-t-1 img {
+    width: 40% !important;
+    height: 40% !important;
+  }
+
+  .h-r-b img {
+    width: 20%;
+  }
+
+  .nav-t-2 {
+    text-align: center;
+  }
+
+  .h-title {
+    display: block;
+    text-align: center;
+  }
+
+
+  .h-t-s1 {
+    display: block !important;
+  }
+
+  .h-t-s2 {
+    display: none !important;
+  }
+
+  .h-r-body {
+    margin-top: 40px;
+  }
+
+  .bor {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    padding: 0 !important;
+  }
+
+
+  .bor1 {
+    padding: 10px 0;
+    width: 160px;
+  }
+
+  .bor1 img {
+    width: 20%;
+  }
+
+  .bor2 {
+    width: 160px;
+  }
+
+  .bor3 {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .h-r-bottom {
+    font-size: 20px;
+  }
+
+  .h-r-bottom img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .h-r-box {
+    transition: all 1s;
+    margin: 0 10px 100px 10px;
+  }
+
+  .foot {
+    width: 100% !important;
+  }
+
+  .foot-p2 {
+    font-size: 13px;
+  }
+
+  .foot-p3 {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .box_b {
+    width: 200px;
+    height: 50px;
+    font-size: 13px;
+  }
+
+  .foot-box {
+    padding: 1%;
+  }
+
+  .foot-box p {
+    font-size: 15px;
+  }
+
+  .foot-box img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .bor1 {
+    width: 160px;
+  }
+
+  .bor1 img {
+    width: 20%;
+  }
+
+  .bor2 {
+    width: 160px;
+  }
+
+  .bor3 {
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .h-title-p {
+    margin: 10px 0;
+    font-size: 25px !important;
+  }
+
+  .nav-select div select {
+    background-position: 65% 12px;
+    background-size: 40px 40px;
+    font-size: 20px;
+  }
+
+  .foot {
+    width: 100% !important;
+  }
+
+  .foot-p2 {
+    font-size: 13px;
+  }
+
+  .foot-p3 {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .box_b {
+    width: 200px;
+    height: 50px;
+    font-size: 13px;
+  }
+
+  .foot-box {
+    padding: 1%;
+  }
+
+  .foot-box p {
+    font-size: 15px;
+  }
+
+  .foot-box img {
+    width: 70%;
+  }
+}
+
