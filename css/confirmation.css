@@ -152,7 +152,7 @@ header {
   
 .box_body_header img {
     width: 100%;
-    transition: all 1s;
+    transition: all 0.5s;
   }
   
 .box_body_header .box_body_sp {
@@ -203,7 +203,7 @@ header {
     }
   
     .box_body_header .box_body_sp span {
-      font-size: 13px !important;
+      font-size: 15px !important;
     }
   
     .box_body_p2 {
@@ -217,7 +217,7 @@ header {
   
 @media screen and (max-width:1390px) {
     nav div {
-      font-size: 40px;
+      font-size: 55px;
     }
   
     .box_body_title {
@@ -234,7 +234,7 @@ header {
   
     .box_header .box_h_nav_l div,
     .box_header .box_h_nav_r div {
-      width: 70px;
+      width: 35px;
       height: 70px;
     }
   
@@ -267,7 +267,7 @@ header {
     }
   
     .box_body_header .box_body_sp span {
-      font-size: 18px;
+      font-size: 40px;
     }
   }
   
