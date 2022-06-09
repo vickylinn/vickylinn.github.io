@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BD-searching</title>
+  <link rel="stylesheet" href="./css/searching.css">
+</head>
+
+<body>
+  <div>
+    <!-- header -->
+    <nav>
+      <div class="nav">
+        <div class="nav-top">
+          <div class="nav-t-1"><a href="./index.html"><img src="./img/return.png"></a></div>
+          <div class="nav-t-2">
+            <div><img src="./img/logo.png"></div>
+          </div>
+          <div class="nav-t-3">
+            <div>
+              <img src="./img/heart.png">
+              <img src="./img/cart.png">
+            </div>
+          </div>
+        </div>
+        <!-- create drop down menu -->
+        <div class="nav-select">
+          <div>
+            <select>
+              <option>Catagories</option>
+              <option>Fictions</option>
+              <option>Children</option>
+              <option>Cookings</option>
+              <option>Languages</option>
+              <option>Culture</option>
+              <option>Romance</option>
+            </select>
+          </div>
+        </div>
+        <div class="nav-bottom">
+          <!-- searching bar -->
+          <div class="searching-input">
+            <img src="./img/searching_icon.png" alt="">
+            <input type="text" placeholder="Search by title or author"></div>
+        </div>
+      </div>
+
+    </nav>
+    <!-- main body section -->
+    <header>
+      <!-- left hand side for catagories lisitng -->
+      <div class="header-l">
+        <div>Catagories</div>
+        <div>Children</div>
+        <div>Fictions</div>
+        <div>Cookings</div>
+        <div>Languages</div>
+        <div>Culture</div>
+        <div>Romance</div>
+      </div>
+      <!-- right hand side for books listing -->
+      <div class="header-r">
+        <!-- right hand side horizontal title  -->
+        <p class="h-title-p">Results for Fictions:</p>
+        <!-- right heading -->
+        <!-- d-ai-c stands for align-items: center -->
+        <div class="h-title d-ai-c">
+          <div class="filter filter1 d-flex d-ai-c">
+            <img src="./img/filter.png">
+            <span>Sort By:</span>
+          </div>
+          <div class="h-t-bigBox">
+            <!-- insert filter options -->
+            <div class="filter filter2 h-title-2 d-flex d-ai-c">
+              <img src="./img/language.png">
+              <span>English</span>
+              <div>
+                <img src="./img/down_arrow.png" alt="">
+                <img src="./img/top_arrow.png" alt="">
+              </div>
+            </div>
+            <div class="filter filter3 d-flex h-title-3 d-ai-c ">
+              <span class="h-t-s1">$$ Australian Dollar</span>
+              <span class="h-t-s2">$$ AUS Dollar</span>
+              <div>
+                <img src="./img/down_arrow.png" alt="">
+                <img src="./img/top_arrow.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- book listings body horizontal right hand side -->
+        <div class="h-r-body">
+          <div class="d-flex h-r-Big-box">
+            <div class="h-r-box">
+              <a href="./individual-display.html">
+                <img src="./img/Book1.png">
+              </a>
+              <p>The Couple at No.9</p>
+              <p>AUS$ 12.89</p>
+              <div class="h-r-b d-flex d-ai-c d-js-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+            <div class="h-r-box">
+              <img src="./img/Book2.png">
+              <p>The Thursday Murder</p>
+              <p>AUS$ 15.00</p>
+              <div class="h-r-b d-flex d-ai-c d-js-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+            <div class="h-r-box">
+              <img src="./img/Book3.png">
+              <p>Life After Life</p>
+              <p>AUS$ 10.99</p>
+              <div class="h-r-b d-flex d-ai-c d-js-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+            <div class="h-r-box">
+              <img src="./img/Book4.png">
+              <p>The Midnight Library</p>
+              <p>AUS$ 7.99</p>
+              <div class="d-flex d-ai-c d-js-b h-r-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+            <div class="h-r-box">
+              <img src="./img/Book4.png">
+              <p>The Couple at No.9</p>
+              <p>AUS$ 10.95</p>
+              <div class="d-flex d-ai-c d-js-b h-r-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+            <div class="h-r-box">
+              <img src="./img/Book1.png">
+              <p>The Couple at No.9</p>
+              <p>AUS$ 10.95</p>
+              <div class="d-flex d-ai-c d-js-b h-r-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+            <div class="h-r-box">
+              <img src="./img/Book2.png">
+              <p>The Couple at No.9</p>
+              <p>AUS$ 10.95</p>
+              <div class="d-flex d-ai-c d-js-b h-r-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+            <div class="h-r-box">
+              <img src="./img/Book3.png">
+              <p>The Couple at No.9</p>
+              <p>AUS$ 10.95</p>
+              <div class="d-flex d-ai-c d-js-b h-r-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+            <div class="h-r-box d-none">
+              <img src="./img/Book4.png">
+              <p>The Couple at No.9</p>
+              <p>AUS$ 10.95</p>
+              <div class="d-flex d-ai-c d-js-b h-r-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+            <div class="h-r-box d-none">
+              <img src="./img/Book1.png">
+              <p>The Couple at No.9</p>
+              <p>AUS$ 10.95</p>
+              <div class="d-flex d-ai-c d-js-b h-r-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+            <div class="h-r-box d-none">
+              <img src="./img/Book2.png">
+              <p>The Couple at No.9</p>
+              <p>AUS$ 10.95</p>
+              <div class="d-flex d-ai-c d-js-b h-r-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+            <div class="h-r-box d-none">
+              <img src="./img/Book3.png">
+              <p>The Couple at No.9</p>
+              <p>AUS$ 10.95</p>
+              <div class="d-flex d-ai-c d-js-b h-r-b">
+                <img src="./img/heart.png">
+                <img src="./img/cart.png">
+              </div>
+            </div>
+          </div>
+          <!-- pages -->
+          <div class="down-pages">
+            <span>1,</span>
+            <span>2,</span>
+            <span>3,</span>
+            <span>4,</span>
+            <span>5</span>
+            <span><img src="./img/right_arrow.png" alt=""></span>
+          </div>
+          <!-- footer -->
+          <div class="foot d-flex">
+            <p class="foot-p1">Contact Us</p>
+            <div class="foot-box d-flex d-ai-c">
+              <div>
+                <img src="./img/facebook.png">
+                <p>Facebook</p>
+              </div>
+              <div>
+                <img src="./img/gmail.png">
+                <p class="foot-box-p">Gmail</p>
+              </div>
+              <div>
+                <img src="./img/twitter.png">
+                <p>Twitter</p>
+              </div>
+            </div>
+            <p class="foot-p2">Phone: 03 2938 4759</p>
+            <p class="foot-p3">Address:256 Wilson St,North Melbourne,VIC,3150</p>
+          </div>
+        </div>
+      </div>
+
+
+    </header>
+
+  </div>
+</body>
+
+</html>
