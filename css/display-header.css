@@ -1,0 +1,119 @@
+.box {
+  background: #FFFFFF;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.heading>li {
+  display: inline-block;
+}
+
+.heading {
+  width: 100%;
+  height: 186px;
+  background: linear-gradient(315deg, rgba(115, 59, 132, 0.08) 0%, rgba(193, 153, 217, 0.26) 29%, rgba(64, 178, 196, 0.4) 64%, rgba(135, 208, 219, 0.71) 84%, rgba(23, 187, 212, 0.52) 100%);
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.heading li:nth-child(1) img {
+  margin-left: 50%;
+}
+
+.heading li:nth-child(3) {
+  opacity: 1;
+  display: flex;
+  margin-right: 5%;
+}
+
+.heading li:nth-child(3) img:first-child {
+  margin-right: 20%;
+}
+
+@media screen and (max-width:600px) {
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .heading {
+    width: 100%;
+    height: 77px;
+    background: linear-gradient(315deg, #F2D3FC 0%, #EEDDF8 19%, #B3F3FD 60%, #B7F1FA 79%, #98E9F5 100%);
+    opacity: 1;
+    border-radius: 0px;
+  }
+
+  .heading li img {
+    display: block;
+    width: 100%;
+  }
+
+  .heading li:nth-child(1) {
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+    margin: auto 0;
+  }
+
+  .heading li:nth-child(1) img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .heading li:nth-child(2) {
+    width: 177px;
+    height: 31px;
+    font-size: 26px;
+    font-family: Bodoni 72;
+    font-weight: bold;
+    opacity: 1;
+    margin: auto;
+  }
+
+  .heading li:nth-child(2) img {
+    width: 177px;
+    height: 31px;
+    opacity: 1;
+  }
+
+  .heading li:nth-child(3) {
+    width: 19px;
+    height: 16px;
+    opacity: 0.85;
+    margin: auto 0;
+    margin-right: 16px;
+  }
+
+  .heading li:nth-child(3) img {
+    width: 19px;
+    height: 16px;
+    opacity: 1;
+    border-radius: 0px;
+  }
+
+  .heading li:nth-child(4) {
+    width: 23px;
+    height: 20px;
+    opacity: 1;
+    border-radius: 0px;
+    margin: auto 0;
+    margin-right: 16px;
+  }
+
+  .heading li:nth-child(4) img {
+    width: 23px;
+    height: 20px;
+    opacity: 1;
+    border-radius: 0px;
+  }
+}
