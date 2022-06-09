@@ -1524,8 +1524,8 @@
         font-size: 23px;
     }
 
-    .fotter-options span:first-child {
-        margin-top: 40px;
-        background: linear-gradient(180deg, #17BBD5 0%, #53A8B5 100%);
+    .span2{
+        background-color: #FCF5F5;
     }
+
 }
