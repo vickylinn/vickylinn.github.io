@@ -140,10 +140,6 @@
     box-shadow: none !important;
   }
   
-  .header-l div:nth-child(2) {
-    border: 2px solid #17BBD5;
-  }
-  
   .header-l div:nth-child(3) {
     width: 160px;
     height: 60px;
@@ -197,7 +193,7 @@
   
   .nav-select {
     display: none;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .h-title div:nth-child(1) {
@@ -206,12 +202,12 @@
   
   .bor {
     background: #FCF5F5;
-    border: 2px solid #17BBD5;
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
     opacity: 0.79;
     border-radius: 21px;
     padding: 0px 10px;
     margin: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .bor .h-t-s1 {
@@ -291,12 +287,12 @@
   }
   
   .foot .foot-p1 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
   
   .foot-box-p {
-    margin-top: 10px;
+    margin-top: 15px;
   }
   
   .foot .foot-box {
@@ -309,13 +305,13 @@
   
   .foot-p2 {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 400;
   }
   
   .foot-p3 {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 400;
   }
 
@@ -368,7 +364,7 @@
       }
     
       .h-title-p {
-        font-size: 30px !important;
+        font-size: 20px !important;
       }
     
       .d-none {
@@ -431,7 +427,7 @@
 
   .bor1 {
     padding: 10px 0;
-    width: 160px;
+    width: 150px;
   }
 
   .bor1 img {
@@ -439,11 +435,11 @@
   }
 
   .bor2 {
-    width: 160px;
+    width: 150px;
   }
 
   .bor3 {
-    width: 200px;
+    width: 150px;
   }
 }
 
