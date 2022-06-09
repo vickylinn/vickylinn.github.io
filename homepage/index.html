@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BD-Homepage</title>
+    <link rel="stylesheet" href="./css/homepage.css">
+</head>
+
+<body>
+    <div class="box">
+        <!-- heading section -->
+        <header>
+            <ul class="heading">
+                <li>
+                    <img class="src1" src="./img/searching_icon.png" alt="">
+                    <div class="dianji" id="dianji">
+                        <!-- create hamburger bar -->
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- side bar menu set up -->
+                    <!-- <span id="x" class="x">X</span> -->
+                    <div class="yincang" id="yincang">
+                        <span id="x" class="x">X</span>
+                        <span>Menu Bar</span>
+                        <span>Sign In/Up</span>
+                        <span>Delivery Policy</span>
+                        <span>Covid-19 Policy</span>
+                        <span>About</span>
+                    </div>
+                    <!-- header for desktop version -->
+                </li>
+                <li>About</li>
+                <li>DeliveryPolicy</li>
+                <li>Covid-19Policy</li>
+                <li>SignIn/Up</li>
+                <li>
+                    <a href="./cart.html"><img class="src2" src="./img/cart.png" alt=""></a>
+                </li>
+            </ul>
+            <div class="logo"><img src="./img/logo.png" alt=""></div>
+        </header>
+
+        <!-- main body section -->
+        <main>
+            <div class="mainbody">
+                <div class="mainbody-left">
+                    <span>Welcome to the book heaven</span>
+                    <span>Expand your mind, Read a book!</span>
+                    <div class="mainbody-box"><a href="./product-searching.html"> <span>Shop Now</span></a></div>
+                </div>
+                <div class="mainbody-right"> <img src="./img/home_image.png" alt=""></div>
+                <div class="mainbody1-box"> <a href="./product-searching.html"> <span>Shop Now</span></a></div>
+            </div>
+            <div class="booktitle"> Our Bestselling Books</div>
+            <!-- best selling books section -->
+            <div class="bestbook">
+                <div><img src="./img/left_arrow.png" alt=""></div>
+                <div>
+                    <img src="./img/Book1.png" alt="">
+                    <span>The Couple at No.9</span>
+                    <span>AUS$12.89</span>
+                </div>
+                <div>
+                    <img src="./img/Book2.png" alt="">
+                    <span>The Thursday Murder</span>
+                    <span>AUS$15.00</span>
+                </div>
+                <div>
+                    <img src="./img/Book1.png" alt="">
+                    <span>The Couple at No.9</span>
+                    <span>AUS$12.89</span>
+                </div>
+                <div>
+                    <img src="./img/Book2.png" alt="">
+                    <span>The Thursday Murder</span>
+                    <span>AUS$15.00</span>
+                </div>
+                <div>
+                    <img src="./img/Book1.png" alt="">
+                    <span>The Couple at No.9</span>
+                    <span>AUS$12.89</span>
+                </div>
+                <div><img src="./img/right_arrow.png" alt=""></div>
+            </div>
+
+            <span class="authortitle">Popular Authors</span>
+            <!-- popular authors section -->
+            <div class="popauthor">
+                <div><img src="./img/left_arrow.png" alt=""></div>
+                <div>
+                    <img src="./img/face1.png" alt="">
+                    <span>Ella Kowk</span>
+                </div>
+                <div>
+                    <img src="./img/face2.png" alt="">
+                    <span><span>Ella Kowk</span></span>
+                </div>
+                <div>
+                    <img src="./img/face3.png" alt="">
+                    <span>Megan Young</span>
+                </div>
+                <div>
+                    <img src="./img/face1.png" alt="">
+                    <span>Ella Kowk</span>
+                </div>
+                <div>
+                    <img src="./img/face2.png" alt="">
+                    <span>Anna Walson</span>
+                </div>
+                <div>
+                    <img src="./img/face3.png" alt="">
+                    <span>Megan Young</span>
+                </div>
+                <div><img src="./img/right_arrow.png" alt=""></div>
+            </div>
+
+            
+        </main>
+        <!-- footer -->
+        <div class="downfooter"> <span>Contact Us</span></div>
+        <footer>
+            <div class="bottom">
+                <div>
+                    <img src="./img/facebook.png" alt="">
+                    <span>Facebook</span>
+                </div>
+                <div>
+                    <img src="./img/gmail.png" alt="">
+                    <span>Gmail</span>
+                </div>
+                <div>
+                    <img src="./img/twitter.png" alt="">
+                    <span>Twitter</span>
+                </div>
+            </div>
+
+<!-- contract info section -->
+            <div class="phone"><p>Phone: 03 2938 4759</p></div>
+            <div class="b-address"><p>Address: 256 Wilson St, North Melbourne, VIC, 3150</p></div>
+        </footer>
+    </div>
+</body>
+<!-- set up side bar function -->
+<script>
+    var yincang = document.getElementById('yincang');
+    var dianji = document.getElementById('dianji');
+    var x = document.getElementById('x');
+    dianji.onclick = function () {
+        yincang.style.display = "block";
+        dianji.style.display = "none";
+        x.style.display = "block";
+    }
+    x.onclick = function () {
+        yincang.style.display = "none";
+        dianji.style.display = "block";
+        x.style.display = "none";
+    }
+</script>
+
+</html>

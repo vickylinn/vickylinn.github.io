@@ -1,0 +1,121 @@
+.bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+
+.bottom div:nth-child(1) {
+    width: 68px;
+    height: 68px;
+    border-radius: 12px;
+    margin-right: 45px;
+}
+
+.bottom div:nth-child(2) {
+    width: 103px;
+    height: 58px;
+    border-radius: 46px;
+    margin-right: 31px;
+}
+
+.bottom div:nth-child(3) {
+    width: 74px;
+    height: 68px;
+    border-radius: 14px;
+}
+
+.bottom div img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom div:nth-child(1) img {
+    width: 68px;
+    height: 68px;
+    border-radius: 12px;
+}
+
+.bottom div:nth-child(2) img {
+    width: 103px;
+    height: 58px;
+    border-radius: 46px;
+}
+
+.bottom div:nth-child(3) img {
+    width: 68px;
+    height: 68px;
+    border-radius: 12px;
+}
+
+.bottom div:nth-child(1) span {
+    width: 63px;
+    height: 21px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.bottom div:nth-child(2) span {
+    display: block;
+    width: 63px;
+    height: 21px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+.bottom div:nth-child(3) span {
+    width: 63px;
+    height: 21px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+
+.phone {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+    white-space: nowrap;
+}
+
+
+.b-address {
+    width: 100%;
+    height: 2.5rem;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+@media screen and (max-width:600px) {
+
+    .phone {
+        width: 124px;
+        height: 15px;
+        font-size: 13px;
+        font-family: Arial;
+        font-weight: 400;
+        margin-top: 21px !important;
+        margin-bottom: 9px !important;
+        margin: 0 auto;
+    }
+
+    .b-address {
+        width: 304px;
+        height: 15px;
+        font-size: 13px;
+        font-family: Arial;
+        font-weight: 400;
+        margin-top: 21px !important;
+        margin: 0 auto;
+    }
+}
