@@ -9,114 +9,153 @@
     <link rel="stylesheet" href="./css/homepage.css">
 </head>
 
+<!-- <style>
+    .zhuti1-box span{
+        text-align: center;
+        /* margin-top: 0.5rem; */
+        display: block;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+</style> -->
+</head>
+
 <body>
-    <div class="box">
-        <!-- set up for header -->
-        <header>
-            <ul class="header">
-                <li>
-                    <img class="src1" src="./Img/Img/searching_icon.png">
-                </li>
-                <li>About</li>
-                <li>Delivery<br>Policy</li>
-                <li>Covid-19<br>Policy</li>
-                <li>SignIn/Up</li>
-                <li>
-                    <img class="src2" src="./Img/Img/cart.png">
-                </li>
-            </ul>
-            <div class="heading"><img src="./Img/Img/logo.png"></div>
-        </header>
+<!-- set up header -->
+<div class="box">
+    <header>
+        <ul class="heading">
+            <li>
+                <img class="src1" src="./Img/Img/searching_icon.png" alt="">
+                <!-- set up sidebar menu -->
+                <div class="tap" id="click">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <!-- <span id="x" class="x">X</span> -->
+                <div class="hide" id="hide">
+                    <span id="x" class="x">X</span>
+                    <span>Menu Bar</span>
+                    <span>Sign In/Up</span>
+                    <span>Delivery Policy</span>
+                    <span>Covid-19 Policy</span>
+                    <span>About</span>
+                </div>
+            <!-- top bar for desktop version -->
+            </li>
+            <li>About</li>
+            <li>DeliveryPolicy</li>
+            <li>Covid-19Policy</li>
+            <li>SignIn/Up</li>
+            <li>
+                <!-- jump to cart page -->
+                <a href="./cart.html"><img class="src2" src="./Img/Img/cart.png" alt=""></a>
+            </li>
+        </ul>
+        <div class="title"><img src="./Img/Img/logo.png" alt=""></div>
+    </header>
 
-        <!-- set up for main body section -->
-        <main>
-            <div class="main">
-                <div class="main-left">
-                    <span>Welcome to the book heaven</span>
-                    <span>Expand your mind, Read a book!</span>
-                    <div class="main-box"><span>Shop Now</span></div>
-                </div>
-                <div class="main-right"><img src="./Img/Img/home_image.png"></div>
+    <!-- set up main body section -->
+    <main>
+        <div class="main-body">
+            <!-- text section -->
+            <div class="main-body-left">
+                <span>Welcome to the book heaven</span>
+                <span>Expand your mind, Read a book!</span>
+                <div class="main-box"><a href="./product-searching.html"> <span>Shop Now</span></a></div>
             </div>
-            <!-- best selling books section -->
-            <span class="book-shift-title"> Our Best Selling Books</span>
-            <div class="book-shifting">
-                <div><img src="./Img/Img/left_arrow.png"></div>
-                <div>
-                    <img src="./Img/Img/Book1.png">
-                    <span>The Couple at No.9 </span>
-                    <span>AUS$12.89</span>
-                </div>
-                <div>
-                    <img src="./Img/Img/Book2.png">
-                    <span>The Thursday Murder </span>
-                    <span>AUS$15</span>
-                </div>
-                <div>
-                    <img src="./Img/Img/Book3.png">
-                    <span>Life after Life </span>
-                    <span>AUS$10.99</span>
-                </div>
-                <div>
-                    <img src="./Img/Img/Book4.png">
-                    <span>The Midnight Library </span>
-                    <span>AUS$7.99</span>
-                </div>
-                <div>
-                    <img src="./Img/Img/Book1.png">
-                    <span>The Couple at No.9 </span>
-                    <span>AUS$12.89</span>
-                </div>
-                <div><img src="./Img/Img/right_arrow.png"></div>
-            </div>
-            <!-- author section -->
-            <span class="author-shift-title">Popular Authors</span>
-            <div class="author-shifting">
-                <div><img src="./Img/Img/left_arrow.png"></div>
-                <div>
-                    <img src="./Img/Img/face1.png">
-                    <span>Ella Kowk</span>
-                </div>
-                <div>
-                    <img src="./Img/Img/face2.png">
-                    <span>Megan Young</span>
-                </div>
-                <div>
-                    <img src="./Img/Img/face3.png">
-                    <span>Anna Walson</span>
-                </div>
-                <div>
-                    <img src="./Img/Img/face1.png">
-                    <span>Ella Kowk</span>
-                </div>
-                <div>
-                    <img src="./Img/Img/face2.png">
-                    <span>Megan Young</span>
-                </div>
-                <div><img src="./Img/Img/right_arrow.png"></div>
-            </div>
-        </main>
-
-        <footer>
-            <div class="ending"><span>Contract Us</span></div>
-            <div class="footer">
-                <div>
-                    <img src="./Img/Img/facebook.png">
-                    <span>Facebook</span>
-                </div>
-                <div>
-                    <img src="./Img/Img/gmail.png">
-                    <span>Gmail</span>
-                </div>
-                <div>
-                    <img src="./Img/Img/twitter.png">
-                    <span>Twitter</span>
-                </div>
-            </div>
-            <div class="phone"><span>Phone: 03 2938 4759</span></div>
-            <div class="address"><span>Address: 256 Wilson St, North Melbourne, VIC, 3150</span></div>
-        </footer>
-    </div>
+            <!-- image section -->
+            <div class="main-right"> <img src="./Img/Img/home_image.png" alt=""></div>
+            <div class="main-box"> <a href="./product-searching.html"> <span>Shop Now</span></a></div>
+        </div>
     
+        <!-- best selling book section -->
+        <span class="book-title"> Our Bestselling Books</span>
+        <div class="book">
+            <div><img src="./Img/Img/left_arrow.png" alt=""></div>
+            <div>
+                <img src="./Img/Img/Book1.png" alt="">
+                <span>The Couple at No.9</span>
+                <span>AUS$12.89</span>
+            </div>
+            <div>
+                <img src="./Img/Img/Book2.png" alt="">
+                <span>The Thursday Murder</span>
+                <span>AUS$15.00</span>
+            </div>
+            <div>
+                <img src="./Img/Img/Book3.png" alt="">
+                <span>Life after Life</span>
+                <span>AUS$10.99</span>
+            </div>
+            <div>
+                <img src="./Img/Img/Book4.png" alt="">
+                <span>The Midnight Library</span>
+                <span>AUS$7.99</span>
+            </div>
+            <div>
+                <img src="./img/Book1.png" alt="">
+                <span>The Couple at No.9</span>
+                <span>AUS$12.89</span>
+            </div>
+            <div><img src="./Img/Img/right_arrow.png" alt=""></div>
+        </div>
+
+    <!-- popular author section -->
+
+        <span class="author-title">Popular Authors</span>
+        <div class="author">
+            <div><img src="./Img/Img/left_arrow.png" alt=""></div>
+            <div>
+                <img src="./Img/Img/face1.png" alt="">
+                <span>Ella Kowk</span>
+            </div>
+            <div>
+                <img src="./Img/Img/face2.png" alt="">
+                <span><span>Anna Walson</span></span>
+            </div>
+            <div>
+                <img src="./Img/Img/face3.png" alt="">
+                <span>Megan Young</span>
+            </div>
+            <div>
+                <img src="./Img/Img/face1.png" alt="">
+                <span>Ella Kowk</span>
+            </div>
+            <div>
+                <img src="./Img/Img/face2.png" alt="">
+                <span>Anna Walson</span>
+            </div>
+            <div>
+                <img src="./Img/Img/face3.png" alt="">
+                <span>Megan Young</span>
+            </div>
+            <div><img src="./Img/Img/right_arrow.png" alt=""></div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- footer contract us section-->
+        <div class="end"> <span>Contact Us</span></div>
+
+        <div class="end-img">
+            <div>
+                <img src="./Img/Img/facebook.png" alt="">
+                <span>Facebook</span>
+            </div>
+            <div>
+                <img src="./Img/Img/facebook.png" alt="">
+                <span>Gmail</span>
+            </div>
+            <div>
+                <img src="./Img/Img/twitter.png" alt="">
+                <span>Twitter</span>
+            </div>
+        </div>
+        <div class="end-phone"><span>Phone: 03 2938 4759</span></div>
+        <div class="end-address"><span>Address: 256 Wilson St, North Melbourne, VIC, 3150</span></div>
+    </footer>
+</div>
 </body>
 </html>
