@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@500&display=swap');
+@media screen and (min-width:1390px) {
+    .box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .heading {
+        height: 100px;
+        background: linear-gradient(315deg, rgba(115, 59, 132, 0.08) 0%, rgba(193, 153, 217, 0.26) 29%, rgba(64, 178, 196, 0.4) 64%, rgba(135, 208, 219, 0.71) 84%, rgba(23, 187, 212, 0.52) 100%);
+        opacity: 1;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .heading span:nth-child(2) {
+        display: none;
+    }
+
+    .heading span:nth-child(1) {
+        display: block;
+        width: 324px;
+        height: 78px;
+        font-size: 55px;
+        font-family: "Libre Bodoni";
+        font-weight: bold;
+        color: #402F42;
+        margin: auto;
+        opacity: 1;     
+
+    }
+
+    .heading-main {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 36px;
+    }
+
+    .heading-main-1 span {
+        width: 220px;
+        height: 52px;
+        font-size: 43px;
+        font-family: Bodoni 72;
+        font-weight: bold;
+        color: #402F42;
+        opacity: 1;
+    }
+
+    .heading-main-2 span {
+        width: 218px;
+        height: 51px;
+        font-size: 43px;
+        font-family: Bodoni 72;
+        font-weight: normal;
+        color: #402F42;
+        opacity: 1;
+        margin-left: -60px;
+    }
+
+    .information {
+        width: 99px;
+        height: 99px;
+        background: linear-gradient(180deg, rgba(201, 126, 229, 0.73) 0%, rgba(83, 168, 181, 0.55) 100%);
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+        opacity: 0.79;
+        border-radius: 30px;
+        margin: 0 auto;
+    }
+
+    .information img {
+        padding: 20%;
+    }
+
+    .confirmation img {
+        padding: 20%;
+    }
+
+    .confirmation {
+        width: 99px;
+        height: 99px;
+        background: #FCF5F5;
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+        opacity: 0.79;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heading {
+        height: 91px;
+        background: linear-gradient(315deg, #F2D3FC 0%, #EEDDF8 19%, #B3F3FD 60%, #B7F1FA 79%, #98E9F5 100%);
+        opacity: 1;
+        border-radius: 0px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .heading span:nth-child(1) {
+        display: block;
+        width: 324px;
+        height: 78px;
+        font-size: 30px;
+        font-family: "Libre Bodoni";
+        font-weight: bold;
+        color: #402F42;
+        margin: auto;
+        text-align: center;
+        line-height: 78px;
+        opacity: 1;    
+    }
+
+    .heading span:nth-child(2) {
+        display: none;
+    }
+
+    .heading-main {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 23px;
+    }
+
+    .heading-main-1 span {
+        width: 70px;
+        height: 17px;
+        font-size: 14px;
+        font-family: Bodoni 72;
+        font-weight: bold;
+        color: #402F42;
+        opacity: 1;
+    }
+
+    .heading-main-2 span {
+        width: 72px;
+        height: 17px;
+        font-size: 14px;
+        font-family: Bodoni 72;
+        font-weight: normal;
+        color: #402F42;
+        opacity: 1;
+        margin-left: -10px;
+    }
+
+    .information {
+        width: 62px;
+        height: 59px;
+        background: linear-gradient(180deg, rgba(201, 126, 229, 0.73) 0%, rgba(83, 168, 181, 0.55) 100%);
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+        opacity: 0.79;
+        border-radius: 21px;
+        margin: 0 auto;
+    }
+
+    .information img {
+        width: 100%;
+        opacity: 1;
+        border-radius: 0px;
+        padding: 25%;
+    }
+
+    .confirmation img {
+        width: 100%;
+        opacity: 1;
+        border-radius: 0px;
+        padding: 25%;
+    }
+
+    .confirmation {
+        width: 62px;
+        height: 59px;
+        background: #FCF5F5;
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+        opacity: 0.79;
+        border-radius: 21px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1389px) {
+    .box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .heading {
+        height: 80px;
+        background: linear-gradient(315deg, rgba(115, 59, 132, 0.08) 0%, rgba(193, 153, 217, 0.26) 29%, rgba(64, 178, 196, 0.4) 64%, rgba(135, 208, 219, 0.71) 84%, rgba(23, 187, 212, 0.52) 100%);
+        opacity: 1;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .heading span:nth-child(2) {
+        display: none;
+    }
+
+    .heading span:nth-child(1) {
+        display: block;
+        width: 224px;
+        height: 38px;
+        font-size: 30px;
+        /* font-family: Bodoni 72; */
+        font-family:"Libre Bodoni" ;
+
+        font-weight: bold;
+        color: #402F42;
+        margin: auto;
+        opacity: 1;
+    }
+
+    .heading-main {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 36px;
+    }
+
+    .heading-main-1 span {
+        width: 220px;
+        height: 52px;
+        font-size: 30px;
+        font-family: Arial;
+        font-weight: bold;
+        color: #402F42;
+        opacity: 1;
+    }
+
+    .heading-main-2 span {
+        width: 218px;
+        height: 51px;
+        font-size: 30px;
+        font-family: Arial;
+        font-weight: normal;
+        color: #402F42;
+        opacity: 1;
+        margin-left: -60px;
+    }
+
+    .information {
+        width: 99px;
+        height: 99px;
+        background: linear-gradient(180deg, rgba(201, 126, 229, 0.73) 0%, rgba(83, 168, 181, 0.55) 100%);
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+        opacity: 0.79;
+        border-radius: 30px;
+        margin: 0 auto;
+    }
+
+    .information img {
+        padding: 20%;
+    }
+
+    .confirmation img {
+        padding: 20%;
+    }
+
+    .confirmation {
+        width: 99px;
+        height: 99px;
+        background: #FCF5F5;
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+        opacity: 0.79;
+        border-radius: 30px;
+    }
+}
