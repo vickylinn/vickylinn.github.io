@@ -148,4 +148,20 @@
     </footer>
 </div>
 </body>
+<!-- sidebar function -->
+<script>
+    var hide = document.getElementById('hide');
+    var tap = document.getElementById('click');
+    var x = document.getElementById('x');
+    tap.onclick = function () {
+        hide.style.display = "block";
+        tap.style.display = "none";
+        x.style.display = "block";
+    }
+    x.onclick = function () {
+        hide.style.display = "none";
+        tap.style.display = "block";
+        x.style.display = "none";
+    }
+</script>
 </html>
