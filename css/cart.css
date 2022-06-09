@@ -6,7 +6,7 @@
     box-sizing: border-box;
     transition: all 1s;
   }
-
+/* abbreviation explaination*/
   .d-flex {
     display: flex;
   }
@@ -18,7 +18,7 @@
   .ai-c {
     align-items: center;
   }
-  
+  /* heading */
   nav {
     width: 100%;
     background: linear-gradient(315deg, #F2D3FC 0%, #EEDDF8 36%, #B3F3FD 60%, #B7F1FA 79%, #98E9F5 100%);
@@ -30,40 +30,46 @@
     padding: 50px 0;
     font-weight: bold;
     font-size: 40px;
+    font-family: "Libre Bodoni";
+    color: #402F42;
   }
   
   header {
     width: 100%;
   }
   
+  /* cart container */
   .box {
     width: 88%;
     padding: 0 5%;
     margin: 20px auto;
     align-content: center;
     border-bottom: 10px rgb(71, 201, 221) solid;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .box_img {
     text-align: center;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .box_img p {
     font-size: 28px;
     font-weight: bold;
   }
+  /* items deatils */
   
   .box_p {
     margin: 0 5%;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 30px;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Bodoni;
     color: #402F42;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
+    
   }
   
   .box_p p:first-child {
@@ -101,13 +107,15 @@
     font-weight: bold;
     margin: 0 10px;
   }
+
+  /* price of item */
   
   .box-num {
     width: 20%;
     margin-left: 70px;
     flex-direction: column;
     justify-content: center;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .box-num p {
@@ -140,9 +148,11 @@
     cursor: pointer;
   }
 
+  /* footer section */
+
   footer {
     width: 100%;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   footer>p {
@@ -212,6 +222,8 @@
     background-color: rgb(71, 201, 221);
     box-shadow: 8px 7px 8px rgba(0, 0, 0, 0.16);
   }
+
+  /* contract us section */
   
   .foot {
     color: #402F42;
@@ -223,16 +235,17 @@
   }
   
   .foot .foot-p1 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
   
   .foot-box-p {
-    margin-top: 10px;
+    margin-top: 15px;
   }
   
   .foot .foot-box {
     text-align: center;
+    font-size: 20px;
   }
   
   .foot .foot-box div {
@@ -241,12 +254,12 @@
   
   .foot-p2 {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 400;
   }
   
   .foot-p3 {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 400;
   }
