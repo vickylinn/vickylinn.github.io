@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  transition: all 1s;
+  transition: all 0.3s;
 }
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@500&display=swap');
 @font-face {
