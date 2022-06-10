@@ -863,7 +863,7 @@
     }
 
     .tick p {
-        font-size: 5px;
+        font-size: 18px;
         flex-wrap: nowrap;
         overflow: hidden;
     }
@@ -1397,7 +1397,7 @@
     }
 
     .tick p {
-        font-size: 5px;
+        font-size: 16px;
         flex-wrap: nowrap;
         overflow: hidden;
     }
