@@ -446,11 +446,6 @@
         outline-style: none;
     }
 
-    .place-order,.return-cart{
-        background: linear-gradient(180deg, #17BBD5 0%, #53A8B5 100%);
-    box-shadow: 5px 5px 6px rgb(0 0 0 / 16%);
-
-    }
 
     .footer-btn {
         margin-top: 50%;
@@ -474,9 +469,20 @@
 
     .footer-btn span:first-child {
         font-size: 20px;
-        background: linear-gradient(180deg, #17BBD5 0%, #53A8B5 100%);
         margin-bottom: 5%;
         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .return-cart{
+        background: #FCF5F5;
+    box-shadow: 5px 5px 6px rgb(0 0 0 / 16%);
+    color: #402F42;
+    }
+
+    .place-order{
+        background: linear-gradient(180deg, #17BBD5 0%, #53A8B5 100%);
+        color: #402F42;
+
     }
 }
 
