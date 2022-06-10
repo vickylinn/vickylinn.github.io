@@ -128,8 +128,8 @@
     .heading-main-1 span {
         width: 70px;
         height: 17px;
-        font-size: 14px;
-        font-family: Bodoni 72;
+        font-size: 1.4375rem;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         color: #402F42;
         opacity: 1;
@@ -138,8 +138,8 @@
     .heading-main-2 span {
         width: 72px;
         height: 17px;
-        font-size: 14px;
-        font-family: Bodoni 72;
+        font-size: 1.4375rem;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: normal;
         color: #402F42;
         opacity: 1;
