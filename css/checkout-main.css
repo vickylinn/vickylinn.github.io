@@ -243,7 +243,7 @@
         white-space: nowrap;
     }
 
-    /* 右边内容 */
+    /* fill in info section */
     .main-right {
         display: flex;
     }
@@ -715,7 +715,7 @@
         white-space: nowrap;
     }
 
-    /* 右边内容 */
+    /* shipping info fill in section */
 
 
     .right-shipping span:nth-child(1) {
@@ -879,7 +879,7 @@
         margin-right: 20px;
     }
 
-    /* 右边内容 左边的开发 */
+    /* payment info fill in section */
 
 
     .right-payment span:nth-child(1) {
@@ -1250,7 +1250,7 @@
         white-space: nowrap;
     }
 
-    /* 右边内容 */
+    /* shipping info fill in section */
 
 
     .right-shipping span:nth-child(1) {
@@ -1413,7 +1413,7 @@
         margin-right: 20px;
     }
 
-    /* 右边内容 左边的开发 */
+    /* payment info fill in section */
 
 
     .right-payment span:nth-child(1) {
