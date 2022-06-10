@@ -350,6 +350,9 @@ footer span {
 
   .f-button a div {
     padding: 5px;
+    width: 14rem;
+    font-size: 1.25rem;
+
   }
 
   nav div {
