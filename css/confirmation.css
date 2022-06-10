@@ -6,16 +6,8 @@
   transition: all 0.3s;
 }
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@500&display=swap');
-@font-face {
-  font-family: 'Bodoni';
-  src: url("../font/BodoniSevITCPro-Bold.OTF");
-}
 
-@font-face {
-  font-family: 'Arial';
-  src: url("../font/arialbd.ttf");
-}
-
+/* abbvs explainations */
 .d-flex {
   display: flex;
 }
@@ -28,6 +20,7 @@
   align-items: center;
 }
 
+/* heading */
 nav {
   width: 100%;
   background: linear-gradient(315deg, rgba(115, 59, 132, 0.08) 0%, rgba(193, 153, 217, 0.26) 29%, rgba(64, 178, 196, 0.4) 64%, rgba(135, 208, 219, 0.71) 84%, rgba(23, 187, 212, 0.52) 100%);
@@ -42,11 +35,11 @@ nav div {
   padding: 40px 0;
 }
 
-/* 中间主体 */
 header {
   width: 100%;
 }
 
+/* main body section- steps guide */
 .box {
   width: 80%;
   margin: 0 auto;
@@ -115,7 +108,7 @@ header {
   margin-top: 20px;
 }
 
-/* 主体部分 */
+/* cart container */
 .box_body {
   margin: 30px 0;
   width: 100%;
@@ -217,15 +210,14 @@ header {
   color: #402F42;
 }
 
-/* 底部开始 */
+/* footer */
 
-.dibu {
+.dubu{
   display: flex;
   justify-content: center;
-  margin-top: 27px;
-  /* margin: 0 auto; */
-}
+  margin-top: 1.6875rem;
 
+}
 .dibu div:nth-child(1) {
   width: 68px;
   height: 68px;
@@ -299,7 +291,6 @@ header {
   white-space: nowrap;
 }
 
-/* 底部 */
 .foot {
   color: #402F42;
   margin: 5% auto;
@@ -337,7 +328,6 @@ header {
   text-align: center;
 }
 
-/* 底部结束 */
 
 @media screen and (max-width:1118px) {
   .box_h_nav_r span {
